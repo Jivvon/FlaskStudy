@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<!--static 디렉토리의 style.css url_for는 정적 파일도 가능-->
+
 <h1>{{ question.subject }}</h1>
 <h5>생성 날짜: {{ question.create_date }}</h5>
 
